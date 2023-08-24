@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    padding: 50px;
+}
+.nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    
+}
+
+.logo img{
+    height: 50px;
+    width: 20%;
+}
+.content{
+    height: 100px;
+    width: 30%;
+}
+.content ul{
+   
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.content ul li{
+    font-size: 20px;
+}
+.sig{
+    height: 100px;
+   
+}
+.sig button{
+    font-size: 20px;
+    background: #000;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 15px;
+}
+.hero-section{
+    height: 400px;
+    width: 100%;
+}
+.hero{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+     text-align: center;
+     margin-top: 20px;
+}
+.hero p{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.hero img{
+    height: 200px;
+    width: 200px;
+    
+}
+.main-section{
+    height: 200px;
+    width: 100%;
+}
+.main{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.clock{
+    height: 400px;
+    width: 20%;
+}
+.clock img{
+    height: 300px;
+    width: 300px;
+}
+.human{
+    height: 300px;
+    width: 30%;
+}
+.human img{
+    height: 250px;
+    width: 255px;
+   
+}
+
+.clients{
+    height:150px;
+    width: 15%;
+    background: #000;
+    margin-bottom: 250px;
+  
+}
+.clients-1{
+    height: 100px;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.clients-2 {
+    font-size: 25px;
+    border: transparent;
+    color: black;
+    padding: 1px;
+ 
+    
+}
+.clients-2  button{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.clients-3 button{
+    font-size: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+}
+.clients-4 button{
+    font-size: 15px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.clients h1{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.clients p{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.clients img{
+    height: auto;
+    width: 30%;
+}
+/* media-query */
+@media (max-width:768px) {
+    .nav-bar{
+        height: auto;
+        width: 100%;
+    }
+    .nav{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo{
+        height: auto;
+        width: 100%;
+    }
+    .logo img{
+        height: 50px;
+        width: 50px;;
+    }
+    .content ul{
+     display: none;
+    }
+    .sig{
+        height: auto;
+        width: 100%;
+    }
+    .main-section{
+        height: auto;
+        width: 100%;
+    }
+    .main{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clock{
+        height: auto;
+        width: 100%;
+    }
+    .human{
+        height: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .human img{
+        height: auto;
+        width: 100%;
+    }
+    .clients{
+        height: auto;
+        width: 100%;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .clients-1{
+        height: auto;
+        width: 100%;
+        
+    }
+    .clients-2{
+        height: auto;
+        width: 100%;
+     
+       
+       
+    }
+    .clients-3{
+        height: auto;
+        width: 100%; 
+      
+        
+    }
+    .clients-4{
+        height: auto;
+        width: 100%;
+       
+    }
+}
